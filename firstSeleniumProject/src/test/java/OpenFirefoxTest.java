@@ -1,4 +1,3 @@
-package com.telran.qa15.sandbox;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
