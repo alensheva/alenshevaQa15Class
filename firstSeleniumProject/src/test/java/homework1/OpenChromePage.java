@@ -15,7 +15,7 @@ public class OpenChromePage {
     @BeforeMethod
     public void setUp(){
         wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @Test
     public void openWiki(){
@@ -23,7 +23,7 @@ public class OpenChromePage {
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(9000);
         wd.quit();
     }
 
