@@ -17,8 +17,8 @@ public class OpenInExPage {
 
     @BeforeMethod
     public void setUp() {
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//vremya kotoroe daet selenium na zagruzky saita//
         wd = new InternetExplorerDriver();
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//vremya kotoroe daet selenium na zagruzky saita//
     }
 
     @Test
