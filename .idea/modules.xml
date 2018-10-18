@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" group="FirstSeleniumProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" group="FirstSeleniumProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets_main.iml" group="addressbook-selenium-tets" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets_test.iml" group="addressbook-selenium-tets" />
     </modules>
   </component>
 </project>

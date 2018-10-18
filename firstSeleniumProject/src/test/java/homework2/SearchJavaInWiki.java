@@ -10,6 +10,7 @@ public class SearchJavaInWiki extends TestBase2{
         writeJavaInSearchBar();
         clickOnTheLoupeButton();
 
+        
         String currentUrl = wd.getCurrentUrl();
         //System.out.println(currentUrl);
         Assert.assertEquals(currentUrl, "https://ru.wikipedia.org/wiki/Java");
