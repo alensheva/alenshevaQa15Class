@@ -8,7 +8,10 @@ public class GroupModioficationTests extends TestBase{
         openGroupsPage();
         selectGroup();
         initGroupModification();
-        fillGroupForm("modifyed","new","changed");
+        fillGroupForm(new Group()
+                .setGroupHeader("modifyed")
+                .setGroupName("new")
+                .setGroupFooter("changed"));
         submitGroupModification();
         returnToGroupsPage();
     }

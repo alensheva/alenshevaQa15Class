@@ -1,6 +1,7 @@
 package com.telran.addressbook;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -21,6 +22,15 @@ public class TestBase {
 
     }
 
+    public boolean isElementPresent(By locator) {
+        try {
+            wd.findElement(locator);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
     public void login(String userName, String password) {
         type(By.name("user"), userName);
         type(By.name("pass"), password);
@@ -35,10 +45,10 @@ public class TestBase {
         wd.findElement(By.name("submit")).click();
     }
 
-    public void fillGroupForm(String groupName, String groupHeader, String groupFooter) {
-        type(By.name("group_name"), groupName);
-        type(By.name("group_header"), groupHeader);
-        type(By.name("group_footer"), groupFooter);
+    public void fillGroupForm(Group group) {
+        type(By.name("group_name"), group.getGroupName());
+        type(By.name("group_header"), group.getGroupHeader());
+        type(By.name("group_footer"), group.getGroupFooter());
     }
 
     public void initGroupCreation() {
@@ -78,4 +88,9 @@ public class TestBase {
     public void deleteGroup() {
         wd.findElement(By.xpath("//input[@name='delete'][2]")).click();
     }
+    public boolean isGroupPresent(){
+        return isElementPresent(By.name("selected[]"));
+    }
+
+
 }
