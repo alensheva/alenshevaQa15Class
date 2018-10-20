@@ -66,7 +66,8 @@ public class TestBase {
     }
 
     @AfterClass
-    public void tearDown() {
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(5000);
         wd.quit();
 
     }
@@ -80,7 +81,7 @@ public class TestBase {
         wd.findElement(By.cssSelector("[name=edit]:last-child")).click();
     }
 
-    public void selectGroup(){
+    public void selectGroup() {
         wd.findElement(By.name("selected[]")).click();
 
     }
@@ -88,9 +89,46 @@ public class TestBase {
     public void deleteGroup() {
         wd.findElement(By.xpath("//input[@name='delete'][2]")).click();
     }
-    public boolean isGroupPresent(){
+
+    public boolean isGroupPresent() {
         return isElementPresent(By.name("selected[]"));
     }
 
 
+    public void submitContactCreation() {
+        wd.findElement(By.name("submit")).click();
+    }
+
+    public void fillContactForm(String firstName, String lastName, String City, String telephone) {
+        type(By.name("firstname"), firstName);
+        type(By.name("lastname"), lastName);
+        type(By.name("address"), City);
+        type(By.name("mobile"), telephone);
+    }
+
+    public void openAddNewContactPage() {
+        wd.findElement(By.cssSelector("[href='edit.php']")).click();
+    }
+
+    public void updateContact() {
+        wd.findElement(By.name("update")).click();
+    }
+
+    public void editContact() {
+        wd.findElement(By.xpath("//a[@href='edit.php?id=3']")).click();
+    }
+
+    public void selectContact() {
+        wd.findElement(By.name("selected[]")).click();
+        //этот селект вообще нужен?ведь и без нажатия на него можно сделать Edit
+    }
+
+    public void deleteContact() {
+        wd.findElement(By.xpath("//input[@value='Delete']")).click();
+
+    }
+
+    protected void acceptDelete() {
+        wd.switchTo().alert().accept();
+    }
 }
