@@ -19,7 +19,29 @@ public class TestBase {
         wd.get("http://localhost/addressbook/");
 
         login("admin", "secret");
+    }
 
+    @AfterClass
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(5000);
+        wd.quit();
+
+    }
+
+    public void login(String userName, String password) {
+        type(By.name("user"), userName);
+        type(By.name("pass"), password);
+        click(By.cssSelector("[type=submit"));
+    }
+
+    public void click(By locator) {
+        wd.findElement(locator).click();
+    }
+
+    public void type(By locator, String text) {
+        click(locator);
+        wd.findElement(locator).clear();
+        wd.findElement(locator).sendKeys(text);
     }
 
     public boolean isElementPresent(By locator) {
@@ -31,18 +53,17 @@ public class TestBase {
         }
     }
 
-    public void login(String userName, String password) {
-        type(By.name("user"), userName);
-        type(By.name("pass"), password);
-        wd.findElement(By.cssSelector("[type=submit")).click();
+    protected void acceptDelete() {
+        wd.switchTo().alert().accept();
     }
 
-    public void returnToGroupsPage() {
-        wd.findElement(By.cssSelector("i a[href=\"group.php\"]")).click();
+    //----------------Group--------------------------
+    public void openGroupsPage() {
+        click(By.cssSelector("[href=\"group.php\"]"));
     }
 
-    public void submitGroupCreation() {
-        wd.findElement(By.name("submit")).click();
+    public void initGroupCreation() {
+        click(By.name("new"));
     }
 
     public void fillGroupForm(Group group) {
@@ -51,84 +72,101 @@ public class TestBase {
         type(By.name("group_footer"), group.getGroupFooter());
     }
 
-    public void initGroupCreation() {
-        wd.findElement(By.name("new")).click();
+    public void submitGroupCreation() {
+        click(By.name("submit"));
     }
 
-    public void openGroupsPage() {
-        wd.findElement(By.cssSelector("[href=\"group.php\"]")).click();
+    public void returnToGroupsPage() {
+        click(By.cssSelector("i a[href=\"group.php\"]"));
     }
 
-    public void type(By locator, String text) {
-        wd.findElement(locator).click();
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
+    public void selectGroup() {
+        click(By.name("selected[]"));
+
     }
 
-    @AfterClass
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        wd.quit();
-
+    public void initGroupModification() {
+        click(By.cssSelector("[name=edit]:last-child"));
     }
 
     public void submitGroupModification() {
 
-        wd.findElement(By.name("update")).click();
-    }
-
-    public void initGroupModification() {
-        wd.findElement(By.cssSelector("[name=edit]:last-child")).click();
-    }
-
-    public void selectGroup() {
-        wd.findElement(By.name("selected[]")).click();
-
+        click(By.name("update"));
     }
 
     public void deleteGroup() {
-        wd.findElement(By.xpath("//input[@name='delete'][2]")).click();
+        click(By.xpath("//input[@name='delete'][2]"));
+    }
+
+    public void createGroup() {
+        initGroupCreation();
+        fillGroupForm(new Group()
+                .setGroupName("Qa15")
+                .setGroupHeader("jjjjj")
+                .setGroupFooter("ghg"));
+        submitGroupCreation();
+        returnToGroupsPage();
     }
 
     public boolean isGroupPresent() {
         return isElementPresent(By.name("selected[]"));
     }
 
-
-    public void submitContactCreation() {
-        wd.findElement(By.name("submit")).click();
+    public int getGroupsCount() {
+        return wd.findElements(By.name("selected[]")).size();
     }
 
-    public void fillContactForm(String firstName, String lastName, String City, String telephone) {
-        type(By.name("firstname"), firstName);
-        type(By.name("lastname"), lastName);
-        type(By.name("address"), City);
-        type(By.name("mobile"), telephone);
+    protected void selectGroupByIndex(int index) {
+        wd.findElements(By.name("selected[]")).get(index).click();
+
     }
+    //-------------Contacts----------------------------------------
 
     public void openAddNewContactPage() {
-        wd.findElement(By.cssSelector("[href='edit.php']")).click();
+        click(By.cssSelector("[href='edit.php']"));
     }
 
-    public void updateContact() {
-        wd.findElement(By.name("update")).click();
+    public void fillContactForm(Contact contact) {
+        type(By.name("firstname"), contact.getFirstName());
+        type(By.name("lastname"), contact.getLastName());
+        type(By.name("address"), contact.getCity());
+        type(By.name("mobile"), contact.getTelephone());
     }
 
-    public void editContact() {
-        wd.findElement(By.xpath("//a[@href='edit.php?id=3']")).click();
+    public void submitContactCreation() {
+        click(By.name("submit"));
     }
 
     public void selectContact() {
-        wd.findElement(By.name("selected[]")).click();
+        click(By.name("selected[]"));
         //этот селект вообще нужен?ведь и без нажатия на него можно сделать Edit
     }
 
+    public void editContact() {
+        click(By.xpath("//img[@title='Edit']"));
+    }
+
+    public void updateContact() {
+        click(By.name("update"));
+    }
+
     public void deleteContact() {
-        wd.findElement(By.xpath("//input[@value='Delete']")).click();
+        click(By.xpath("//input[@value='Delete']"));
 
     }
 
-    protected void acceptDelete() {
-        wd.switchTo().alert().accept();
+    public void createContact() {
+        openAddNewContactPage();
+        fillContactForm(new Contact().setFirstName("Elena")
+                .setLastName("ShevEchenko")
+                .setCity("Holon")
+                .setTelephone("0526447204"));
+        submitContactCreation();
     }
+
+    public boolean isContactPresent() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
+
 }

@@ -2,9 +2,17 @@ package com.telran.addressbook;
 
 
 import org.openqa.selenium.By;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class HwContactDeleteTests extends TestBase {
+public class HwContactDeletionTests extends TestBase {
+    @BeforeMethod
+    public void preconditions() {
+        if (!isContactPresent()) {
+            createContact();
+        }
+    }
+
     @Test
     public void testDeleteContact() {
         selectContact();
