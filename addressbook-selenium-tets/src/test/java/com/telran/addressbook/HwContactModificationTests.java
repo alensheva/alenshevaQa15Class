@@ -1,5 +1,6 @@
 package com.telran.addressbook;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -7,23 +8,26 @@ public class HwContactModificationTests extends TestBase {
 
     @BeforeMethod
     public void preconditions() {
-        if (!isContactPresent()) {
-            createContact();
+        if (!app.isContactPresent()) {
+            app.createContact();
         }
     }
 
     @Test
     public void testContactModification() {
-        selectContact();
-        editContact();
-        fillContactForm(new Contact()
+        int before = app.getContactCount();
+        app.selectContactByIndex(before-1);
+        app.selectContact();
+        app.editContact();
+        app.fillContactForm(new Contact()
                 .setFirstName("Petr")
                 .setLastName("Bah")
                 .setTelephone("05264454")
                 .setCity("TA"));
-        updateContact();
-        //returnContactPage не делаю, ибо страница сама перенаправляется через пару
-        //секунд в список контактов.
+        app.updateContact();
+        int after = app.getContactCount();
+        Assert.assertEquals(after,before);
     }
+
 
 }

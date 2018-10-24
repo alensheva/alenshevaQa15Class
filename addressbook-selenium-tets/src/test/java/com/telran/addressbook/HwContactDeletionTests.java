@@ -1,25 +1,26 @@
 package com.telran.addressbook;
 
 
-import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HwContactDeletionTests extends TestBase {
     @BeforeMethod
     public void preconditions() {
-        if (!isContactPresent()) {
-            createContact();
+        if (!app.isContactPresent()) {
+            app.createContact();
         }
     }
 
     @Test
     public void testDeleteContact() {
-        selectContact();
-        deleteContact();
-        acceptDelete();
-        //returnContactPage не делаю, ибо страница сама перенаправляется через пару
-        //секунд в список контактов.
+        int before = app.getContactCount();
+        app.selectContact();
+        app.deleteContact();
+        app.acceptDelete();
+      int after = app.getContactCount();
+        Assert.assertEquals(after,before-1);
     }
 
 }

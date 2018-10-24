@@ -1,6 +1,5 @@
 package com.telran.addressbook;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,19 +7,19 @@ public class GroupCreationTests extends TestBase {
 
     @Test
     public void testGroupCreation() {
-        openGroupsPage();
-        int before = getGroupsCount();
+        app.openGroupsPage();
+        int before = app.getGroupsCount();
 
-        initGroupCreation();
-        fillGroupForm(new Group()
+        app.initGroupCreation();
+        app.fillGroupForm(new Group()
                 .setGroupName("Qa15")
                 .setGroupHeader("jjjjj")
                 .setGroupFooter("ghg"));
-        submitGroupCreation();
-        returnToGroupsPage();
+        app.submitGroupCreation();
+        app.returnToGroupsPage();
 
 
-        int after = getGroupsCount();
+        int after = app.getGroupsCount();
         Assert.assertEquals(after,before+1);
 
     }
