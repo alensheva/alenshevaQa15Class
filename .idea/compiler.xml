@@ -6,6 +6,8 @@
       <module name="addressbook-selenium-tets_test" target="1.8" />
       <module name="FirstSeleniumProject_main" target="1.8" />
       <module name="FirstSeleniumProject_test" target="1.8" />
+      <module name="trello-selenium-tests_main" target="1.8" />
+      <module name="trello-selenium-tests_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
