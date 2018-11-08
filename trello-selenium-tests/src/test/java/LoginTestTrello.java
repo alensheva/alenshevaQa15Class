@@ -13,6 +13,11 @@ public class LoginTestTrello extends TrelloBase{
     public void login(){
 
         loginTrello("alensheva@gmail.com", "adminya34");
+
+        int a =3126;
+        int res = a - 8;
+        System.out.println(res);
     }
+
 
 }

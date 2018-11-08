@@ -1,97 +1,60 @@
 package com.telran.addressbook.manager;
 
-import com.telran.addressbook.model.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.BrowserType;
+
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    public SessionHelper sessionHelper;
     WebDriver wd;
 
+    public SessionHelper sessionHelper;
     public GroupHelper groupHelper;
-
+    public ContactHelper contactHelper;
     public NavigationHelper navigationHelper;
+    private String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
+
+    public void start() {
+        if (browser.equals(BrowserType.CHROME)) {
+            wd = new ChromeDriver();
+
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            wd = new FirefoxDriver();
+
+        } else if (browser.equals(BrowserType.IE)) {
+            wd = new InternetExplorerDriver();
+        }
+
+        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        navigationHelper = new NavigationHelper(wd);
+        navigationHelper.openSite("http://localhost/addressbook/");
+        sessionHelper = new SessionHelper(wd);
+        sessionHelper.login("admin", "secret");
+        groupHelper = new GroupHelper(wd);
+        contactHelper = new ContactHelper(wd);
+
+    }
 
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
     }
-
-    public void start() {
-        wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        sessionHelper = new SessionHelper(wd);
-        navigationHelper.openSite("http://localhost/addressbook/");
-        sessionHelper.login("admin", "secret");
-
-        groupHelper = new GroupHelper(wd);
-        navigationHelper = new NavigationHelper(wd);
-
-    }
-
-
 
     public void stop() throws InterruptedException {
         Thread.sleep(5000);
         wd.quit();
     }
 
-    public void acceptDelete() {
-        wd.switchTo().alert().accept();
-    }
-
-    public void openAddNewContactPage() {
-        groupHelper.click(By.cssSelector("[href='edit.php']"));
-    }
-
-    public void fillContactForm(Contact contact) {
-        groupHelper.type(By.name("firstname"), contact.getFirstName());
-        groupHelper.type(By.name("lastname"), contact.getLastName());
-        groupHelper.type(By.name("address"), contact.getCity());
-        groupHelper.type(By.name("mobile"), contact.getTelephone());
-    }
-
-    public void submitContactCreation() {
-        groupHelper.click(By.name("submit"));
-    }
-
-    public void selectContact() {
-        groupHelper.click(By.name("selected[]"));
-    }
-
-    public void editContact() {
-        groupHelper.click(By.xpath("//img[@title='Edit']"));
-    }
-
-    public void updateContact() {
+    public void submitModification() {
         groupHelper.click(By.name("update"));
-    }
-
-    public void deleteContact() {
-        groupHelper.click(By.xpath("//input[@value='Delete']"));
-
-    }
-
-    public void createContact() {
-        openAddNewContactPage();
-        fillContactForm(new Contact().setFirstName("Elena")
-                .setLastName("ShevEchenko")
-                .setCity("Holon")
-                .setTelephone("0526447204"));
-        submitContactCreation();
-    }
-
-    public boolean isContactPresent() {
-        return groupHelper.isElementPresent(By.name("selected[]"));
-    }
-
-    public int getContactCount() {
-        return wd.findElements(By.name("selected[]")).size();
-    }
-
-    public void selectContactByIndex(int index) {
-        wd.findElements(By.name("selected[]")).get(index).click();
     }
 
     public GroupHelper getGroupHelper() {
@@ -101,4 +64,9 @@ public class ApplicationManager {
     public SessionHelper getSessionHelper() {
         return sessionHelper;
     }
+
+    public ContactHelper getContactHelper() {
+        return contactHelper;
+    }
+
 }

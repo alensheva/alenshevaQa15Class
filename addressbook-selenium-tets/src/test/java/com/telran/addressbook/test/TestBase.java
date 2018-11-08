@@ -1,19 +1,20 @@
 package com.telran.addressbook.test;
 
 import com.telran.addressbook.manager.ApplicationManager;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.remote.BrowserType;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 
-    public ApplicationManager app = new ApplicationManager();
+    public static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
-    @BeforeClass
+    @BeforeSuite
     public void setUp() {
         app.start();
     }
 
-    @AfterClass
+    @AfterSuite(alwaysRun = true)
     public void tearDown() throws InterruptedException {
         app.stop();
     }

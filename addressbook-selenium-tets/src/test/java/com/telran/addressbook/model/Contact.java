@@ -1,10 +1,10 @@
 package com.telran.addressbook.model;
 
 public class Contact {
-    private  String firstName;
-    private  String lastName;
-    private  String city;
-    private  String telephone;
+    private String firstName;
+    private String lastName;
+    private String city;
+    private String telephone;
 
 
     public Contact setFirstName(String firstName) {

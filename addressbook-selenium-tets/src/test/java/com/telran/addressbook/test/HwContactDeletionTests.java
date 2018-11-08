@@ -8,19 +8,19 @@ import org.testng.annotations.Test;
 public class HwContactDeletionTests extends TestBase {
     @BeforeMethod
     public void preconditions() {
-        if (!app.isContactPresent()) {
-            app.createContact();
+        if (!app.getContactHelper().isContactPresent()) {
+            app.getContactHelper().createContact();
         }
     }
 
     @Test
     public void testDeleteContact() {
-        int before = app.getContactCount();
-        app.selectContact();
-        app.deleteContact();
-        app.acceptDelete();
-      int after = app.getContactCount();
-        Assert.assertEquals(after,before-1);
+        int before = app.getContactHelper().getContactCount();
+        app.getContactHelper().selectContact();
+        app.getContactHelper().deleteContact();
+        app.getContactHelper().acceptDelete();
+        int after = app.getContactHelper().getContactCount();
+        Assert.assertEquals(after, before - 1);
     }
 
 }

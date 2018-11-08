@@ -9,25 +9,25 @@ public class HwContactModificationTests extends TestBase {
 
     @BeforeMethod
     public void preconditions() {
-        if (!app.isContactPresent()) {
-            app.createContact();
+        if (!app.getContactHelper().isContactPresent()) {
+            app.getContactHelper().createContact();
         }
     }
 
     @Test
     public void testContactModification() {
-        int before = app.getContactCount();
-        app.selectContactByIndex(before-1);
-        app.selectContact();
-        app.editContact();
-        app.fillContactForm(new Contact()
+        int before = app.getContactHelper().getContactCount();
+        app.getContactHelper().selectContactByIndex(before - 1);
+        app.getContactHelper().selectContact();
+        app.getContactHelper().editContact();
+        app.getContactHelper().fillContactForm(new Contact()
                 .setFirstName("Petr")
                 .setLastName("Bah")
                 .setTelephone("05264454")
                 .setCity("TA"));
-        app.updateContact();
-        int after = app.getContactCount();
-        Assert.assertEquals(after,before);
+        app.getContactHelper().updateContact();
+        int after = app.getContactHelper().getContactCount();
+        Assert.assertEquals(after, before);
     }
 
 
