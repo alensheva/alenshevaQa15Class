@@ -17,9 +17,8 @@
       <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactCreationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactCreationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactDeletionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactDeletionTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactModificationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactModificationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstSeleniumProject/.gradle/" />
@@ -112,7 +111,7 @@
           <entry key="dummy" value="44" />
           <entry key="gradle" value="135" />
           <entry key="html" value="1" />
-          <entry key="java" value="5717" />
+          <entry key="java" value="5723" />
           <entry key="xml" value="42" />
         </counts>
       </usages-collector>
@@ -120,7 +119,7 @@
         <counts>
           <entry key="Groovy" value="135" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="5717" />
+          <entry key="JAVA" value="5723" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="XML" value="42" />
         </counts>
@@ -150,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="112">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -159,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="504">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -1056,10 +1055,10 @@
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/conHelp.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/app.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -1069,7 +1068,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -1167,7 +1166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541958861144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541960159751" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/firstSeleniumProject/src/test/java/com/telran/qa15/sandbox/OpenFirefoxTest.java" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1359,7 +1358,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="752" extended-state="7" />
+    <frame x="-9" y="-9" width="1384" height="752" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26911315" />
@@ -1674,15 +1673,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="504">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="112">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
