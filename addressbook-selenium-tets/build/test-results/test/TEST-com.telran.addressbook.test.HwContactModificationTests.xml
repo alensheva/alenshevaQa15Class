@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.addressbook.test.HwContactModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-01T22:54:25" hostname="Zihan49" time="5.043">
+<testsuite name="com.telran.addressbook.test.HwContactModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-11T17:56:56" hostname="Zihan49" time="12.26">
   <properties/>
-  <testcase name="testContactModification" classname="com.telran.addressbook.test.HwContactModificationTests" time="5.043"/>
+  <testcase name="testContactModification" classname="com.telran.addressbook.test.HwContactModificationTests" time="12.26"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

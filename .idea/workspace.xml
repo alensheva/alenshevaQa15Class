@@ -2,32 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80740e41-09a2-492d-9225-b0da74499586" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tets_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/manager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/GroupCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/GroupDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/GroupDeletionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/GroupModificationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/GroupModificationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/HwContactCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/HwContactCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/HwContactDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/HwContactDeletionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/HwContactModificationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/HwContactModificationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/out/test/classes/com/telran/addressbook/test/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.GroupCreationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.GroupCreationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.GroupDeletionTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.GroupDeletionTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.GroupModificationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.GroupModificationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.HwContactCreationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.HwContactCreationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.HwContactDeletionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.HwContactDeletionTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.HwContactModificationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/classes/com.telran.addressbook.test.HwContactModificationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/packages/com.telran.addressbook.test.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/packages/com.telran.addressbook.test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.GroupCreationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.GroupCreationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.GroupDeletionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.GroupDeletionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.GroupModificationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.GroupModificationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactCreationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactCreationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactDeletionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactDeletionTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactModificationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/TEST-com.telran.addressbook.test.HwContactModificationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-selenium-tests/out/test/classes/LoginTestTrello.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-selenium-tests/out/test/classes/LoginTestTrello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-selenium-tests/src/test/java/LoginTestTrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-selenium-tests/src/test/java/LoginTestTrello.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstSeleniumProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/firstSeleniumProject/build/" />
@@ -100,16 +93,16 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="8" />
-          <entry key="html" value="3" />
-          <entry key="java" value="225" />
+          <entry key="html" value="5" />
+          <entry key="java" value="232" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="8" />
-          <entry key="HTML" value="3" />
-          <entry key="JAVA" value="225" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="232" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -119,7 +112,7 @@
           <entry key="dummy" value="44" />
           <entry key="gradle" value="135" />
           <entry key="html" value="1" />
-          <entry key="java" value="5699" />
+          <entry key="java" value="5717" />
           <entry key="xml" value="42" />
         </counts>
       </usages-collector>
@@ -127,7 +120,7 @@
         <counts>
           <entry key="Groovy" value="135" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="5699" />
+          <entry key="JAVA" value="5717" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="XML" value="42" />
         </counts>
@@ -137,62 +130,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/build.gradle">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="208">
+              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="283">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/GroupHelper.java">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -1079,10 +1056,10 @@
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/conHelp.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/app.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java" />
       </list>
     </option>
   </component>
@@ -1092,7 +1069,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -1122,13 +1099,21 @@
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="addressbook-selenium-tets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="test-results" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="addressbook-selenium-tets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="test-results" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-selenium-tets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1182,7 +1167,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541694821703" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541958861144" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/firstSeleniumProject/src/test/java/com/telran/qa15/sandbox/OpenFirefoxTest.java" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1342,12 +1327,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HwContactModificationTests - 2018.11.02 at 00h 25m 13s.xml">
-      <configuration name="HwContactModificationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HwContactCreationTests_testContactCreation - 2018.11.02 at 00h 27m 19s.xml">
-      <configuration name="HwContactCreationTests.testContactCreation" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HwContactModificationTests - 2018.11.02 at 00h 27m 47s.xml">
       <configuration name="HwContactModificationTests" configurationId="TestNG" />
     </history-entry>
@@ -1372,12 +1351,18 @@
     <history-entry file="com_telran_addressbook - 2018.11.02 at 00h 52m 00s.xml">
       <configuration name="com.telran.addressbook" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="com_telran_addressbook - 2018.11.08 at 19h 09m 37s.xml">
+      <configuration name="com.telran.addressbook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="com_telran_addressbook - 2018.11.08 at 21h 08m 10s.xml">
+      <configuration name="com.telran.addressbook" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="752" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28440368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26911315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1386,7 +1371,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49923548" weight="0.18398637" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7782875" weight="0.20954004" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7782875" visible="true" weight="0.20954004" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1555,13 +1540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello-selenium-tests/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1573,26 +1551,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/helBase.java" />
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/conHelp.java" />
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/app.java" />
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1603,69 +1567,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupDeletionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1694,10 +1601,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="242">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
         </state>
       </provider>
     </entry>

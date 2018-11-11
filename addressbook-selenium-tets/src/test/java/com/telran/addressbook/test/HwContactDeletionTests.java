@@ -19,6 +19,7 @@ public class HwContactDeletionTests extends TestBase {
         app.getContactHelper().selectContact();
         app.getContactHelper().deleteContact();
         app.getContactHelper().acceptDelete();
+
         int after = app.getContactHelper().getContactCount();
         Assert.assertEquals(after, before - 1);
     }
