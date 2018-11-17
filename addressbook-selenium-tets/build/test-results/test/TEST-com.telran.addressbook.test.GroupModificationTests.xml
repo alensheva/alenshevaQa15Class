@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.addressbook.test.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-11T18:08:52" hostname="Zihan49" time="2.618">
+<testsuite name="com.telran.addressbook.test.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-11T19:09:49" hostname="Zihan49" time="2.356">
   <properties/>
-  <testcase name="testGroupModification" classname="com.telran.addressbook.test.GroupModificationTests" time="2.618"/>
+  <testcase name="testGroupModification" classname="com.telran.addressbook.test.GroupModificationTests" time="2.356"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[1541963388912	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://localhost/addressbook/group.php
+1541963388968	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://localhost/addressbook/group.php
+1541963388970	Marionette	DEBUG	[4294967297] Received DOM event unload for http://localhost/addressbook/group.php
+1541963388983	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost/addressbook/group.php
+1541963388988	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost/addressbook/group.php
+1541963389090	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://localhost/addressbook/group.php
+1541963389132	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://localhost/addressbook/group.php
+1541963389133	Marionette	DEBUG	[4294967297] Received DOM event unload for http://localhost/addressbook/group.php
+1541963389142	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost/addressbook/group.php
+1541963389160	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost/addressbook/group.php
+1541963389460	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541963389542	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://localhost/addressbook/group.php
+1541963389681	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://localhost/addressbook/group.php
+1541963389682	Marionette	DEBUG	[4294967297] Received DOM event unload for http://localhost/addressbook/group.php
+1541963389695	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost/addressbook/group.php
+1541963389721	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost/addressbook/group.php
+1541963390006	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541963390428	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541963390834	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541963390956	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://localhost/addressbook/group.php
+1541963391232	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://localhost/addressbook/group.php
+1541963391234	Marionette	DEBUG	[4294967297] Received DOM event unload for http://localhost/addressbook/group.php
+1541963391254	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost/addressbook/group.php
+1541963391269	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost/addressbook/group.php
+1541963391316	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://localhost/addressbook/group.php
+1541963391353	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://localhost/addressbook/group.php
+1541963391353	Marionette	DEBUG	[4294967297] Received DOM event unload for http://localhost/addressbook/group.php
+1541963391365	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost/addressbook/group.php
+1541963391375	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost/addressbook/group.php
+]]></system-err>
 </testsuite>
