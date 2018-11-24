@@ -1,0 +1,8 @@
+14210 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+21305 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
+21318 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+27042 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
+27043 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+31874 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
+31875 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+36625 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation

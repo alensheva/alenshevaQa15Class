@@ -47,5 +47,17 @@ public class HwContactCreationTests extends TestBase {
 
     }
 
+    @Test
+    public void testContactCreation() {
 
+        int before = app.getContactHelper().getContactCount();
+
+        app.getContactHelper().openAddNewContactPage();
+        app.getContactHelper().fillContactForm(new Contact().setFirstName("1name")
+                .setGroup("Qa15"));
+        app.getContactHelper().submitContactCreation();
+        int after = app.getContactHelper().getContactCount();
+        //Assert.assertEquals(after, before + 1);
+
+    }
 }

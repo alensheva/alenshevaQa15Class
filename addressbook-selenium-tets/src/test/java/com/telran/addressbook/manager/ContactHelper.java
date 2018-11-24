@@ -3,6 +3,7 @@ package com.telran.addressbook.manager;
 import com.telran.addressbook.model.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class ContactHelper extends HelperBase {
 
@@ -23,6 +24,9 @@ public class ContactHelper extends HelperBase {
         type(By.name("lastname"), contact.getLastName());
         type(By.name("address"), contact.getCity());
         type(By.name("mobile"), contact.getTelephone());
+
+        new Select(wd.findElement(By.name("new_group")))
+                .selectByVisibleText(contact.getGroup());
     }
 
     public void deleteContact() {

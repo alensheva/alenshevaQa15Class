@@ -5,7 +5,16 @@ public class Contact {
     private String lastName;
     private String city;
     private String telephone;
+    private String group;
 
+    public String getGroup() {
+        return group;
+    }
+
+    public Contact setGroup(String group) {
+        this.group = group;
+        return this;
+    }
 
     public Contact setFirstName(String firstName) {
         this.firstName = firstName;

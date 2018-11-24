@@ -1,0 +1,8 @@
+10783 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+15350 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
+15361 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+17700 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
+17700 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+24187 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
+24188 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestContactCreation
+30538 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestContactCreation
