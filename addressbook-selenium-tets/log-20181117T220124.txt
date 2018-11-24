@@ -1,0 +1,10 @@
+6705 [main] INFO  c.t.a.test.GroupCreationTests - Start testGroupCreation
+8641 [main] INFO  c.t.a.test.GroupCreationTests - Stop testGroupCreation
+8641 [main] INFO  c.t.a.test.GroupCreationTests - Start testGroupCreation
+10230 [main] INFO  c.t.a.test.GroupCreationTests - Stop testGroupCreation
+10233 [main] INFO  c.t.a.test.GroupCreationTests - Start testGroupCreation
+11970 [main] INFO  c.t.a.test.GroupCreationTests - Stop testGroupCreation
+11970 [main] INFO  c.t.a.test.GroupCreationTests - Start testGroupCreation
+13855 [main] INFO  c.t.a.test.GroupCreationTests - Stop testGroupCreation
+13857 [main] INFO  c.t.a.test.GroupCreationTests - Start testGroupCreation
+15711 [main] INFO  c.t.a.test.GroupCreationTests - Stop testGroupCreation

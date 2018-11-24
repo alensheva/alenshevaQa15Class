@@ -1,6 +1,8 @@
 package com.telran.addressbook.test;
 
 import com.telran.addressbook.model.Group;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -15,6 +17,7 @@ import java.util.List;
 
 
 public class GroupCreationTests extends TestBase {
+
     @DataProvider
     public Iterator<Object[]> validGroups() throws IOException {
         List<Object[]> list = new ArrayList<>();
@@ -42,6 +45,7 @@ public class GroupCreationTests extends TestBase {
 
     @Test(dataProvider = "validGroups")
     public void testGroupCreation(Group group) {
+
         app.getGroupHelper().openGroupsPage();
 
         int before = app.getGroupHelper().getGroupsCount();
@@ -55,7 +59,6 @@ public class GroupCreationTests extends TestBase {
 
         int after = app.getGroupHelper().getGroupsCount();
         Assert.assertEquals(after, before + 1);
-
     }
 
 

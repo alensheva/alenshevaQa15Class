@@ -1,0 +1,10 @@
+9790 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestGroupCreation
+12438 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestGroupCreation
+12440 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestGroupCreation
+14325 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestGroupCreation
+14328 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestGroupCreation
+16655 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestGroupCreation
+16658 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestGroupCreation
+19405 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestGroupCreation
+19405 [main] INFO  c.telran.addressbook.test.TestBase - Start testtestGroupCreation
+21103 [main] INFO  c.telran.addressbook.test.TestBase - Stop testtestGroupCreation
