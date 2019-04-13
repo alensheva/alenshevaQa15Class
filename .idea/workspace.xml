@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80740e41-09a2-492d-9225-b0da74499586" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstSeleniumProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/firstSeleniumProject/build/" />
@@ -60,10 +52,12 @@
     <session id="-689231278">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.134" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.41" value="1" />
@@ -71,6 +65,7 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.51" value="1" />
@@ -82,7 +77,8 @@
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,7 +87,7 @@
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="12" />
           <entry key="html" value="5" />
-          <entry key="java" value="250" />
+          <entry key="java" value="251" />
           <entry key="log" value="2" />
           <entry key="txt" value="5" />
           <entry key="xml" value="5" />
@@ -101,7 +97,7 @@
         <counts>
           <entry key="Groovy" value="12" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="250" />
+          <entry key="JAVA" value="251" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="5" />
         </counts>
@@ -128,79 +124,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions-selenium/src/test/java/Draggable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -876,7 +800,9 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/actions-selenium" value="6172333754679" />
+        <entry key="$PROJECT_DIR$/actions-selenium/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/actions-selenium/build.gradle" value="578537928" />
+        <entry key="$PROJECT_DIR$/actions-selenium/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/actions-selenium/settings.gradle" value="1152532632" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tets" value="6160866991237" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tets/.gradle" value="0" />
@@ -1371,7 +1297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -1428,13 +1353,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543090550335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555175974822" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/firstSeleniumProject/src/test/java/com/telran/qa15/sandbox/OpenFirefoxTest.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UCHEBAS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1617,9 +1543,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="752" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25076452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27217126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1628,7 +1553,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49923548" weight="0.18398637" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7782875" visible="true" weight="0.059625212" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7782875" visible="true" weight="0.059625212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1835,23 +1760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1876,9 +1784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/log-bySecond_IS_UNDEFINED.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/log-bySecond_IS_UNDEFINED.txt" />
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/log-20181117T220124.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1957,9 +1863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1967,10 +1870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1978,23 +1877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions-selenium/src/test/java/Draggable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -2007,35 +1889,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/model/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="864">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1176">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/manager/ContactHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="240">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions-selenium/src/test/java/Draggable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tets/src/test/java/com/telran/addressbook/test/HwContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
